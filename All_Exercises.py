@@ -61,12 +61,12 @@ if Grading=="Formatting Strings":
 if Grading=="Join":
     join()
 if Grading=="Regexp Exercises":
-    RegExpGrading=raw_input("""I want to grade Isaac's Regexp code:
-    Find All
-    Test for a Phone Number
-    Word Games
-    Word Games 2
-    Word Games 3
+    RegExpGrading=raw_input("""     I want to grade Isaac's Regexp code:
+            Find All
+            Test for a Phone Number
+            Word Games
+            Word Games 2
+            Word Games 3
     """)
 if RegExpGrading=="Word Games":
     regexp_for_word_games()
