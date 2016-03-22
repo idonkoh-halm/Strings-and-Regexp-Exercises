@@ -21,6 +21,16 @@ and full w/ middle initial (first middle-initial last) using string formatting.
     print "Full Style: " '%s %s %s' % (FString_Name.first, FString_Name.middle,FString_Name.last)
     print "Full with Middle Initial: " '%s %.1s. %s' % (FString_Name.first, FString_Name.middle, FString_Name.last)
 
+    print("""
+Formatting Strings + Numbers Instructions:
+Use the %f options to properly print out the strings as an
+integer, with 2 decimal places, or in scientific notation
+with 3 significant digits.
+"""
+)
+    print "Third=" '%.2f' %(1.0/3)
+    print "Oddball_percentage =" '%.2f%s' %(2.7/14*100,'%')
+    print """Big Ol' Number =""" '%e' %(43**23/2.123)
 def join():
     print """
     Join Instructions:
@@ -56,5 +66,4 @@ if Grading=="Formatting Strings":
 if Grading=="Join":
     join()
 else:
-    print "Uh-Oh! An error! Please check your capitalization. If that is not the case, you may use the separate files."
-
+    pass
