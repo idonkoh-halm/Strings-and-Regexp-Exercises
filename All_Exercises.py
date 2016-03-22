@@ -42,7 +42,7 @@ def join():
 def regexp_find_all():
     pass
 def regexp_for_word_games():
-    pass
+    print "Word Games!"
 def regexp_for_word_games_2():
     pass
 def regexp_for_word_games_3():
@@ -53,17 +53,30 @@ def regexp_test_for_a_phone_number():
 Grading=raw_input("""I want to grade Isaac's code on:
 Formatting Strings
 Join
-Regexp: Find All
-Regexp: Word Games
-Regexp: Word Games 2
-Regexp: Word Games 3
-Regexp: Test for a Phone Number
-
+Regexp Exercises
 """)
 
 if Grading=="Formatting Strings":
     formatting_strings()
 if Grading=="Join":
     join()
+if Grading=="Regexp Exercises":
+    RegExpGrading=raw_input("""I want to grade Isaac's Regexp code:
+    Find All
+    Test for a Phone Number
+    Word Games
+    Word Games 2
+    Word Games 3
+    """)
+if RegExpGrading=="Word Games":
+    regexp_for_word_games()
+if RegExpGrading=="Find All":
+    regexp_find_all()
+if RegExpGrading=="Word Games 2":
+    regexp_for_word_games_2()
+if RegExpGrading=="Word Games 3":
+    regexp_for_word_games_3()
+if RegExpGrading=="Test for a Phone Number":
+    regexp_test_for_a_phone_number()
 else:
     pass
