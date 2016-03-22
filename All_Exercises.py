@@ -22,7 +22,13 @@ and full w/ middle initial (first middle-initial last) using string formatting.
     print "Full with Middle Initial: " '%s %.1s. %s' % (FString_Name.first, FString_Name.middle, FString_Name.last)
 
 def join():
-    pass
+    print """
+    Join Instructions:
+    Use the built-in "join" method of a string to elegantly print out the items in a list with commas in between them.
+    """
+    colors = ['red','white','blue','yellow']
+    s=","
+    print s.join(colors)
 def regexp_find_all():
     pass
 def regexp_for_word_games():
@@ -47,6 +53,8 @@ Regexp: Test for a Phone Number
 
 if Grading=="Formatting Strings":
     formatting_strings()
+if Grading=="Join":
+    join()
 else:
     print "Uh-Oh! An error! Please check your capitalization. If that is not the case, you may use the separate files."
 
