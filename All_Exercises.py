@@ -53,7 +53,7 @@ def regexp_test_for_a_phone_number():
 Grading=raw_input("""I want to grade Isaac's code on:
 Formatting Strings
 Join
-Regexp Exercises
+Regular Expressions Exercises
 """)
 
 if Grading=="Formatting Strings":
@@ -61,7 +61,7 @@ if Grading=="Formatting Strings":
 if Grading=="Join":
     join()
 if Grading=="Regexp Exercises":
-    RegExpGrading=raw_input("""     I want to grade Isaac's Regexp code:
+    RegExpGrading=raw_input("""     I want to grade Isaac's Regular Expressions code:
             Find All
             Test for a Phone Number
             Word Games
